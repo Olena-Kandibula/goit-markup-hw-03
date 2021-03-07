@@ -361,17 +361,10 @@ header > .container {
 
 /* =============FILTER========= */
 
-.portfolio > .container {
-  text-align: center;
-}
-
-.filter-wrapper {
-  display: inline-block;
-}
-
 .filter-list {
   display: flex;
   margin-bottom: 50px;
+  justify-content: center;
 }
 
 .filter-item + .filter-item {
@@ -416,7 +409,6 @@ header > .container {
 
 .content-wrapper {
   padding: 20px 24px;
-  text-align: left;
   background: #ffffff;
   border-left: 1px solid var(--border-cards-color);
   border-right: 1px solid var(--border-cards-color);
