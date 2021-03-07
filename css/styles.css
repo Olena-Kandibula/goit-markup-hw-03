@@ -101,7 +101,9 @@ img {
 /* ==========END COMPONENTS========== */
 
 /* ==============HEADER========== */
-
+header {
+  border-bottom: 1px solid var(--top-line-color);
+}
 header > .container {
   display: flex;
   align-items: center;
@@ -168,10 +170,6 @@ header > .container {
   color: var(--brend-accent-color);
 }
 
-.top-line {
-  border: 1px solid var(--top-line-color);
-}
-
 /* ==============END  HEADER========== */
 
 /* =================== Герой =========*/
@@ -186,7 +184,8 @@ header > .container {
 }
 
 .hero > .container {
-  padding: 200px 252px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   text-align: center;
 }
 
@@ -197,6 +196,9 @@ header > .container {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-color);
+  max-width: 696px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 30px;
 }
 
@@ -369,11 +371,7 @@ header > .container {
 
 .filter-list {
   display: flex;
-  margin-bottom: 34px;
-}
-
-.filter-item {
-  padding-bottom: 15px;
+  margin-bottom: 50px;
 }
 
 .filter-item + .filter-item {
@@ -418,8 +416,11 @@ header > .container {
 
 .content-wrapper {
   padding: 20px 24px;
+  text-align: left;
   background: #ffffff;
-  border: 1px solid var(--border-cards-color);
+  border-left: 1px solid var(--border-cards-color);
+  border-right: 1px solid var(--border-cards-color);
+  border-bottom: 1px solid var(--border-cards-color);
 }
 .projects-title {
   font-weight: 700;
